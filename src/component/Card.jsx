@@ -7,23 +7,27 @@ function CardFaq() {
 
 
     return (
+        <>
+            {
+                languages.map((language) => (
 
-        languages.map((language) =>
-            <>
-                <div key={language.id}>
-                    <button onClick={() => setTitle(language.id)}>
-                        {language.title}
-                    </button>
-                    {title === language.id && (<p>{language.description}</p>)}
+                    <div key={language.id}>
+                        <button onClick={() => setTitle(language.id)} className="btn">
+                            {language.title}
+                        </button>
 
-                </div>
-            </>
-        )
+                    </div>
+
+                ))
+            }
 
 
+            < div >
+                {title === languages.id && (<p>{languages.description}</p>)}
+            </div >
+        </>
     )
 }
-
 
 
 export default CardFaq
