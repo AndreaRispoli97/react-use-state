@@ -21,7 +21,7 @@ header {
 }
 
 .button-container {
-  display: flex;
+
   padding-top: 50px;
-  justify-content: space-evenly;
+
 }
