@@ -5,9 +5,9 @@ function Main() {
 
     return (
         <div className="container">
-            <div className="button">
-                <CardFaq languages={languages} />
-            </div>
+
+            <CardFaq languages={languages} />
+
         </div>
     )
 }

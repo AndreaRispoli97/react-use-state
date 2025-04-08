@@ -8,19 +8,20 @@ function CardFaq() {
 
     return (
         <>
-            {
-                languages.map((language) => (
+            <div className="btn-card">
+                {
+                    languages.map((language) => (
 
 
-                    <button onClick={() => setTitle(language.id)} className="btn" key={language.id}>
-                        {language.title}
-                    </button>
+                        <button onClick={() => setTitle(language.id)} className="btn" key={language.id}>
+                            {language.title}
+                        </button>
 
-                ))
-            }
+                    ))
+                }
+            </div>
 
-
-            < div >
+            < div className="description-card">
                 <h2>
                     {
                         currentElement ? currentElement.title : ''
