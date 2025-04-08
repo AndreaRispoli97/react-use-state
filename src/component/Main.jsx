@@ -4,8 +4,10 @@ import languages from "../data/languages"
 function Main() {
 
     return (
-        <div className="button-container">
-            <CardFaq languages={languages} />
+        <div className="container">
+            <div className="button">
+                <CardFaq languages={languages} />
+            </div>
         </div>
     )
 }

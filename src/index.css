@@ -14,13 +14,21 @@ header {
 
 /* Main */
 
-.btn {
-  background-color: #0d6efd;
-  color: white;
-  padding: 10px;
+.container {
+  display: flex;
+  justify-content: center;
 }
 
-.button-container {
+.btn {
+  background-color: #0d6efd;
+  border: #0d6efd;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.button {
 
   padding-top: 50px;
 
