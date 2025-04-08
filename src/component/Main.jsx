@@ -1,12 +1,12 @@
 import CardFaq from "./Card"
-
+import languages from "../data/languages"
 
 function Main() {
 
     return (
-        <button>
-            <CardFaq />
-        </button>
+        <div>
+            <CardFaq languages={languages} />
+        </div>
     )
 }
 
