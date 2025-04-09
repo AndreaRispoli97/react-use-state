@@ -9,19 +9,12 @@ function CardFaq() {
     return (
         <>
             <div className="btn-card">
-                {
-                    languages.map((language) => (
+                {languages.map((language) => (<button onClick={() => setTitle(language.id)} className="btn" key={language.id}>{language.title}</button>
 
-
-                        <button onClick={() => setTitle(language.id)} className="btn" key={language.id}>
-                            {language.title}
-                        </button>
-
-                    ))
+                ))
                 }
             </div>
-
-            < div className="description-card">
+            {!title ? <div>Nessun elemento Selezionato</div> : < div className="description-card">
                 <h2>
                     {
                         currentElement ? currentElement.title : ''
@@ -33,7 +26,8 @@ function CardFaq() {
                     }
                 </p>
                 {/* {title === languages.id && (<p>{languages.description}</p>)} */}
-            </div >
+            </div >}
+
         </>
     )
 }
