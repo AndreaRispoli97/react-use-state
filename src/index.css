@@ -31,6 +31,15 @@ header {
   margin-right: 20px;
 }
 
+/* .btn-selected {
+  background-color: #cfe6ae;
+  border: #cfe6ae;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-right: 20px;
+} */
+
 .description-card {
   width: 800px;
   border: 2px solid black;

@@ -8,8 +8,9 @@ function CardFaq() {
 
     return (
         <>
+            {/* // possibile bonus per cambio coloro del bottone {title && title.id === title.id ? 'btn' : 'btn-selected'} */}
             <div className="btn-card">
-                {languages.map((language) => (<button onClick={() => setTitle(language.id)} className="btn" key={language.id}>{language.title}</button>
+                {languages.map((language) => (<button onClick={() => setTitle(language.id)} className='btn' key={language.id}>{language.title}</button>
 
                 ))
                 }
