@@ -31,14 +31,14 @@ header {
   margin-right: 20px;
 }
 
-/* .btn-selected {
-  background-color: #cfe6ae;
-  border: #cfe6ae;
-  color: white;
+.btn-selected {
+  background-color: yellow;
+  border: yellow;
+  color: red;
   padding: 10px;
   border-radius: 10px;
   margin-right: 20px;
-} */
+}
 
 .description-card {
   width: 800px;
