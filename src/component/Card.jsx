@@ -14,7 +14,7 @@ function CardFaq() {
                 ))
                 }
             </div>
-            {!title ? <div>Nessun elemento Selezionato</div> : < div className="description-card">
+            {!title ? <div className="description-card">Nessun elemento Selezionato</div> : < div className="description-card">
                 <h2>
                     {
                         currentElement ? currentElement.title : ''
